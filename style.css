@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('images/background.png');
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.background{
+    height: 100vh;
+    width: 100vw;   
+}
+.contaner ,h1{
+    /* background: red; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    font-weight: bolder;
+    font-size: 1.9rem;
+    /* color: wheat; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-content: center;
+}
+.setting{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    right: 12px;
+    gap: 1rem;
+}
+.dobcontaner input{
+    /* gap: 12rem; */
+    /* background-color:transparent; */
+    /* color: wheat; */
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background:green;
+    color: wheat;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hide{
+    display: none;
+}
+body , html{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.time-contaner{
+    display: flex;
+    gap: 2.9rem;
+    justify-content: center;
+    align-items: center;
+}
+.time-contaner h2{
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.9rem;
+}
+.time-contaner h2 div{
+    text-align: center;
+    font-size: 2.9rem;
+    /* margin-left: 2vw; */
+    font-weight: 100;
+    color: white;
+}
